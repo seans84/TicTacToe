@@ -41,9 +41,9 @@ class TicTacToe
     player2_name = gets.chomp.downcase.capitalize
     @player1 = Player.new(player1_name, "X")
     @player2 = Player.new(player2_name, "O")
-    puts "Ok #{@player1.name} will be #{@player1.symbol}'s"
-    puts "and #{@player2.name} will be #{@player2.symbol}'s"
     puts " "
+    puts "Ok, #{@player1.name} will be #{@player1.symbol}'s"
+    puts "and #{@player2.name} will be #{@player2.symbol}'s"
   end
   
   def move
