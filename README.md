@@ -8,6 +8,7 @@ ruby TicTacToe.rb
 
 # Board Preview
 
+```
 Hello, please type the name of the first player: Sean
 Thank you, and what is the name of the second player?: Bill
  
@@ -32,4 +33,5 @@ The current board looks like this:
    |   |  
  
 Sean please select a move: 
+```
 
